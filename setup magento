@@ -5,3 +5,12 @@ php bin/magento setup:install --base-url=https://magento.test/ \
 --currency=USD --timezone=America/Chicago --use-rewrites=1 \
 --search-engine=elasticsearch7 --elasticsearch-host=elasticsearch \
 --elasticsearch-port=9200
+
+
+* sửa đúng phiên bản tương thích docker + đường dẫn trong .env (WORK_DIR=/home/bss/www/magento)
+* cop app/code thay
+* cop pub/media thay
+* nếu chưa install ở docker thì chạy lệnh composer install
+* chạy terminal docker exec -it <name: docker ps lấy tên> bash
+* chạy lệnh dài trên .....
+
