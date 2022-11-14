@@ -14,3 +14,8 @@ php bin/magento setup:install --base-url=https://magento.test/ \
 * chạy terminal docker exec -it <name: docker ps lấy tên> bash
 * chạy lệnh dài trên .....
 
+
+
+* stop all container: docker stop $(docker container list -aq)
+
+
